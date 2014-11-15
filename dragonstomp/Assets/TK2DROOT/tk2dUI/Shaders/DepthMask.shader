@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Shader "tk2d/Depth Mask" {
     SubShader {
         Tags { "Queue" = "Transparent" }
@@ -7,4 +8,15 @@ Shader "tk2d/Depth Mask" {
         ColorMask 0
         Pass {}
     }
+=======
+Shader "tk2d/Depth Mask" {
+    SubShader {
+        Tags { "Queue" = "Transparent" }
+        Lighting Off
+        ZTest LEqual
+        ZWrite On
+        ColorMask 0
+        Pass {}
+    }
+>>>>>>> origin/master
 }
